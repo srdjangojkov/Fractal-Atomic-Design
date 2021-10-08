@@ -1,0 +1,13 @@
+variants:
+  - name: default
+    context:
+      buttonText: Read more
+  - name: 'SecondaryColor'
+    context:
+      buttonText: Buy this book
+  - name: 'PrimaryWhite'
+    context:
+      buttonText: Read more
+  - name: 'SecondaryWhite'
+    context:
+      buttonText: Buy this book

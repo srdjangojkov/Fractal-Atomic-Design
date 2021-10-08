@@ -1,0 +1,12 @@
+{% extends "@section-wrapper" %}
+{% block content %}
+    <section class="o-banner col-md-12" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), center / cover no-repeat url(/pictures/carousel-elinHilderbrand.jpg)">
+    <nav aria-label="breadcrumb">
+        <ol class="o-banner-breadcrumbDot breadcrumb">
+        {% for page in pages %}
+            <li class="breadcrumb-item {{ 'active' if loop.last }}"><a href="#" class="o-breadcrumbDot-link a-heading4">{{ page.title }}</a></li>
+        {% endfor %}
+        </ol>
+    </nav>
+    </section>
+{% endblock %} 

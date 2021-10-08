@@ -1,0 +1,30 @@
+variants:
+  - name: default
+    context:
+      pages:
+        - title: Page
+        - title: Page
+        - title: Current page
+  - name: carousel
+    context:
+      slides:
+        - title: Monthly pick
+          text: Hand-selected by our booksellers, our Monthly Picks are a must-read.
+          buttonText: Read more
+          link: url(/pictures/carousel-elinHilderbrand.jpg)
+        - title: Monthly pick
+          text: Hand-selected by our booksellers, our Monthly Picks are a must-read.
+          buttonText: Read more
+          link: url(/pictures/carousel-discount.jpg)
+        - title: Monthly pick
+          text: Hand-selected by our booksellers, our Monthly Picks are a must-read.
+          buttonText: Read more
+          link: url(/pictures/carousel-revivalseason.jpg)
+  - name: white
+    context:
+        heading: Page Title
+        pages:
+          - title: Page
+          - title: Page
+          - title: Current page
+    

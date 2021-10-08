@@ -1,0 +1,7 @@
+variants:
+  - name: default
+    context:
+      text: Buy this book
+  - name: 'White'
+    context:
+      text: Buy this book

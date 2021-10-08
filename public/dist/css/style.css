@@ -1,0 +1,50 @@
+.a-heading1, .a-heading2, .a-heading3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.a-heading1 {
+    font-size: 7.5rem;
+    line-height: 8.25rem;
+}
+
+.a-heading2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.a-heading3 {
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+}
+
+.a-heading3 {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+.a-textLead {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 700;
+}
+
+.a-textBitter {
+    font-family: 'Bitter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.563rem;
+}
+
+.a-textOpenSans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.563rem;
+}
+
+.a-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75px;
+    font-weight: 400;
+    line-height: 1.063rem;
+}

@@ -1,0 +1,11 @@
+<div class="o-bannerWhite col-12">
+    <nav aria-label="breadcrumb">
+        <ol class="o-bannerWhite-breadcrumbDot breadcrumb">
+        {% for page in pages %}
+            <li class="breadcrumb-item {{ 'active' if loop.last }}"><a href="#" class="o-breadcrumbDot-link a-heading4" {{ 'aria-current=page' if loop.last }}> {{ page.title }}</a></li>
+        {% endfor %}
+        </ol>
+    </nav>
+
+    <h2 class="o-bannerWhite-title a-heading2"> {{ heading }} </h2>
+</div>

@@ -1,0 +1,18 @@
+<div class="col-md-4 mt-5 mt-md-0">
+    <div class="o-highlightCard p-4">
+        <p class="a-textOpenSans text-uppercase">{{ eventsTitle }}</p>
+        <ul class="o-highlightCard-list">
+        {% for event in events %}
+            <li class="py-2">
+                <div>
+                    <div class="a-textOpenSans">{{ event.date }}</div>
+                    <div>
+                        <a href="{{ event.link }}" class="m-linkWhite">{{ event.name }}</a>
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+        <a href="#" class="m-btnSecondaryWhite"><span class="a-buttonText">{{ buttonText }}</span></a>
+    </div>
+</div>

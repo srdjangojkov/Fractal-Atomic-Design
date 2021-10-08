@@ -1,0 +1,41 @@
+<footer class="o-footer py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <!-- [About Us] -->
+                <div>
+                    <h4 class="a-heading4">{{ footerTitle }}</h4>
+                    <p class="a-textBitter">
+                        {{ footerText }}
+                    </p>
+                </div>
+                <!-- [/About Us] -->
+            </div>
+            <div class="col-md-4">
+                <!-- [Meta Navigation] -->
+                <ul class="o-footer-nav">
+
+                    {% for footerLink in footerLinks %}
+                    <li>
+                        <a href="#" title="Legal Notice">{{ footerLink.label }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <!-- [/Meta Navigation] -->
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- [Copyright] -->
+                    <small class="copyright">
+                        <span class="a-textLabel">{{ copyrightText }}</span>
+                    </small>
+                    <!-- [/Copyright] -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

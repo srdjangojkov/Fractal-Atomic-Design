@@ -1,0 +1,30 @@
+variants:
+  - name: default
+    context:
+      highlightTitle: Revival Season
+      highlightButtonText: Buy this book
+      paragraphs:
+        - text: 'Every summer, fifteen-year-old Miriam Horton and her family pack themselves tight in their old minivan and travel through small southern towns for revival season: the time when Miriam’s father holds massive healing services for people desperate to be cured of ailments and disease. After one such service in which Reverend Horton’s healing powers are tested like never before, Miriam witnesses a shocking act of violence that shakes her belief in everything she’s known to be true.'
+        - text: 'When the Hortons return home, Miriam’s confusion only grows as she discovers she might have the power to heal—even though her father and the church have always made it clear that such power is denied to women. Over the course of the next year, Miriam must decide between her religion, her family, and her newfound power that might be able to save others, but, if discovered by her father, could destroy Miriam.'
+  - name: events-card
+    context:
+      title: Events
+      buttonText: Buy this book
+      events:
+        - name: Think Africa Book Club
+          date: May 18, 2021
+          link: '#'
+        - name: Book Chat Bubble
+          date: May 18, 2021
+          link: '#'
+        - name: 'Christopher Willard Á Olivia Weisser: The In-Between Book'
+          date: May 18, 2021
+          link: '#'
+        - name: 'Book Launch: Out of Eden by Cheryl Adam'
+          date: May 18, 2021
+          link: '#'
+  - name: horizontal-card
+    context:
+      title: Schedule a meeting
+      text: You want a personal meeting with one of our teammembers? Schedule a meeting right now.
+      buttonText: Find a Timeslot 

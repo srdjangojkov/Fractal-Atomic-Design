@@ -1,0 +1,4 @@
+variants:
+  - name: default
+    context:
+      src: /pictures/img-1.png

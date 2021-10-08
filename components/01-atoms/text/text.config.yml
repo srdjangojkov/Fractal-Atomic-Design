@@ -1,0 +1,26 @@
+variants:
+  - name: default
+    context:
+      text: This is a h1.
+  - name: 'h2'
+    context:
+      text: This is a h2.
+  - name: 'h3'
+    context:
+      text: This is a h3.
+  - name: 'h4'
+    context:
+      text: This is a h4.
+  - name: 'label'
+    context:
+      text: This is a label.
+  - name: 'lead'
+    context:
+      text: This is a lead text.
+  - name: 'bitter'
+    context:  
+      text: This is a paragraph with Bitter.
+  - name: 'openSans'
+    context:
+      text: This is a paragraph with Open Sans.
+    

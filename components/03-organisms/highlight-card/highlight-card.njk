@@ -1,0 +1,15 @@
+<div class="col-lg-4">
+   <div class="o-highlightCard p-3 mt-5 mt-lg-0">
+      <h4 class="a-heading4 text-uppercase">{{ highlightTitle }}</h4>
+      <div class="row">
+         <div class="col-md-12">
+            <div class="mb-3">
+                  {% for paragraph in paragraphs %}
+                     <p class="a-textBitter">{{ paragraph.text }}</p>
+                  {% endfor %}
+               <a href="#" class="m-btnSecondaryWhite"><span class="a-buttonText">{{ highlightButtonText }}</span></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,43 @@
+<header>
+  <div id="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="{{ link }}">
+        <span class="logo">
+          <img src="/pictures/img-3.png" alt="The Adventure Company">
+        </span>
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="a-heading4 nav-link mr-3" href="{{ link }}">Home<span class="sr-only">(current)</span></a>
+          </li>
+
+          {% for dropdown in dropdowns %}
+          <li class="nav-item dropdown">
+            <a class="a-heading4 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ dropdown.label }}
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for dropdownItem in dropdown.dropdownItems %}
+              <a class="dropdown-item" href="{{ link }}">{{ dropdownItem.label }}</a>
+              {% endfor %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search for a book..." aria-label="Search">
+        </form>
+        <img src="/illustrations/globe.svg" alt="globe icon">
+      </div>
+    </nav>
+  </div>
+</header>

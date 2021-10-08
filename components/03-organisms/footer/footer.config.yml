@@ -1,0 +1,9 @@
+context:
+  footerTitle: About Us
+  footerText: Rogers Bookstore.com leverages the power of the Ask Roger! brand to offer online customers the Web's premier destination for books, eBooks, magazines, toys & games, music, DVD and Blu-ray, and related products and services.
+  copyrightText: Copyright © 2016 Version 1.0.0.0
+  link: '#'
+  footerLinks:
+    - label: Legal Notice
+    - label: Privacy Policy
+    - label: Terms and Conditions

@@ -1,0 +1,70 @@
+context:
+  link: '#'
+  sectionTitle: Section Title
+  title: Shadow and Bone
+  cardImg: '/pictures/img-1.png'
+  linkText: 'Read more'
+  
+  # Card normal
+  cardText: Leigh Bardugo is a master of YA Fantasy, and this is no exception to her talents.
+
+  # Card wide
+  cardWideText: Robert Fabbri was born in Geneva in 1961. He was educated at Christ’s Hospital School, Horsham and London University. He worked for twenty-five years as an assistant director in the film and television industries. Having had his fair share of long, cold nights standing in the rain in muddy fields and unbearably hot days in deserts or stuffy sound stages he decided to start writing. Being a life-long ancient war-gamer with a collection of over 3,500 hand-painted 25mm lead soldiers and a lover of Roman Historical Fiction the subject matter was obvious.
+
+  # Event card
+  eventsTitle: Events
+  buttonText: Buy this book
+  events:
+    - name: Think Africa Book Club
+      date: May 18, 2021
+      link: '#'
+    - name: Book Chat Bubble
+      date: May 18, 2021
+      link: '#'
+    - name: 'Christopher Willard Á Olivia Weisser: The In-Between Book'
+      date: May 18, 2021
+      link: '#'
+    - name: 'Book Launch: Out of Eden by Cheryl Adam'
+      date: May 18, 2021
+      link: '#'
+
+  dropdowns:
+    - label: Books
+      dropdownItems:
+        - label: Bestsellers
+        - label: New releases
+        - label: Coming soon
+        - label: E-books
+        - label: All categories
+    - label: Events
+      dropdownItems:
+        - label: Book signings
+        - label: Press releases
+        - label: Summer reading
+    - label: Services
+      dropdownItems:
+        - label: Contact
+        
+  slides:
+      - title: Monthly pick
+        text: Hand-selected by our booksellers, our Monthly Picks are a must-read.
+        buttonText: Read more
+        link: url(/pictures/carousel-elinHilderbrand.jpg)
+      - title: Monthly pick
+        text: Hand-selected by our booksellers, our Monthly Picks are a must-read.
+        buttonText: Read more
+        link: url(/pictures/carousel-discount.jpg)
+      - title: Monthly pick
+        text: Hand-selected by our booksellers, our Monthly Picks are a must-read.
+        buttonText: Read more
+        link: url(/pictures/carousel-revivalseason.jpg)
+
+  # Footer
+  footerTitle: About Us
+  footerText: Rogers Bookstore.com leverages the power of the Ask Roger! brand to offer online customers the Web's premier destination for books, eBooks, magazines, toys & games, music, DVD and Blu-ray, and related products and services.
+  copyrightText: Copyright © 2016 Version 1.0.0.0
+  footerLinks:
+    - label: Legal Notice
+    - label: Privacy Policy
+    - label: Terms and Conditions
+    

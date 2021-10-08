@@ -1,0 +1,19 @@
+context:
+  title: Home
+  link: '#'
+  dropdowns:
+    - label: Books
+      dropdownItems:
+        - label: Bestsellers
+        - label: New releases
+        - label: Coming soon
+        - label: E-books
+        - label: All categories
+    - label: Events
+      dropdownItems:
+        - label: Book signings
+        - label: Press releases
+        - label: Summer reading
+    - label: Services
+      dropdownItems:
+        - label: Contact

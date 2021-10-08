@@ -1,0 +1,47 @@
+context:
+  link: '#'
+  heading: Contact
+
+  # Header
+  dropdowns:
+    - label: Books
+      dropdownItems:
+        - label: Bestsellers
+        - label: New releases
+        - label: Coming soon
+        - label: E-books
+        - label: All categories
+    - label: Events
+      dropdownItems:
+        - label: Book signings
+        - label: Press releases
+        - label: Summer reading
+    - label: Services
+      dropdownItems:
+        - label: Contact
+
+  # Breadcrumbs
+  pages:
+    - title: Page
+    - title: Page
+    - title: Current page
+
+  # Form
+  label: Name
+  placeholder: Text
+  type: input
+  buttonText: Send request
+
+  # Pink section
+  title: Schedule a meeting
+  text: You want a personal meeting with one of our teammembers? Schedule a meeting right now.
+
+  # Footer
+  footerTitle: About Us
+  footerText: Rogers Bookstore.com leverages the power of the Ask Roger! brand to offer online customers the Web's premier destination for books, eBooks, magazines, toys & games, music, DVD and Blu-ray, and related products and services.
+  copyrightText: Copyright © 2016 Version 1.0.0.0
+  footerLinks:
+    - label: Legal Notice
+    - label: Privacy Policy
+    - label: Terms and Conditions
+    

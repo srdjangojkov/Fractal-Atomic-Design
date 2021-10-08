@@ -1,0 +1,21 @@
+variants:
+  - name: default
+    context:
+      src: '/illustrations/arrow-left.svg'
+      alt: 'arrow icon'
+  - name: globe
+    context:
+      src: '/illustrations/globe.svg'
+      alt: 'globe icon'
+  - name: placeholder
+    context:
+      src: '/illustrations/placeholder.svg'
+      alt: 'placeholder icon'
+  - name: radio on
+    context:
+      src: '/illustrations/radio-on.svg'
+      alt: 'radio on icon'
+  - name: radio off
+    context:
+      src: '/illustrations/radio-off.svg'
+      alt: 'radio off icon'

@@ -1,0 +1,44 @@
+context:
+  link: '#'
+  heading: Search Results for “Africa Book Club”
+
+  # Header
+  dropdowns:
+    - label: Books
+      dropdownItems:
+        - label: Bestsellers
+        - label: New releases
+        - label: Coming soon
+        - label: E-books
+        - label: All categories
+    - label: Events
+      dropdownItems:
+        - label: Book signings
+        - label: Press releases
+        - label: Summer reading
+    - label: Services
+      dropdownItems:
+        - label: Contact
+
+  # Breadcrumbs
+  pages:
+    - title: Page
+    - title: Page
+    - title: Current page
+
+  # Cards
+  eventCellTitle: Think Africa Book Club
+  eventCellText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis quis justo in dictum. Etiam consequat lectus in placerat efficitur. Curabitur nec gravida turpis, quis porta tortor. Aenean placerat cursus nisl. Proin sed mollis diam, eu eleifend justo. Mauris ullamcorper condimentum elit et ultrices. In hac habitasse platea dictumst. Mauris neque odio, finibus quis urna eu, commodo gravida lorem. Phasellus consectetur ligula at consequat ultricies.
+  eventCellDate: May 18, 2021
+  cardImg: /pictures/img-1.png
+
+  # Footer
+  footerTitle: About Us
+  footerText: Rogers Bookstore.com leverages the power of the Ask Roger! brand to offer online customers the Web's premier destination for books, eBooks, magazines, toys & games, music, DVD and Blu-ray, and related products and services.
+  copyrightText: Copyright © 2016 Version 1.0.0.0
+  footerLinks:
+    - label: Legal Notice
+    - label: Privacy Policy
+    - label: Terms and Conditions
+
+    

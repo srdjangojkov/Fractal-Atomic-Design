@@ -1,0 +1,341 @@
+:root {
+    --purple: #cc174e;
+    --grey-1: #404c5e;
+    --grey-2: #2c384d;
+    --grey-3: #161c27;
+    --grey-4: #9499a4;
+    --grey-5: #ccc;
+    --green-1: #247978;
+    --green-2: #002a2a;
+}  
+
+.a-heading1, .a-heading2, .a-heading3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.a-heading1 {
+    font-size: 7.5rem;
+    line-height: 8.25rem;
+}
+
+.a-heading2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.a-heading3 {
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+}
+
+.a-heading4, .m-link, .m-linkWhite {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+
+.a-textLead {
+    font-family: 'Bitter', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 3.188rem;
+}
+
+.a-textBitter {
+    font-family: 'Bitter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.563rem;
+}
+
+.a-textOpenSans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.563rem;
+}
+
+.a-textLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.063rem;
+}
+
+.a-buttonText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+
+.m-btnPrimaryColor {
+	border: 2px solid var(--grey-2);
+	background: #fff;
+    color: var(--grey-1);
+	padding: 14px 17px;
+    transition: .3s;
+}
+
+.m-btnPrimaryColor:hover {
+    text-decoration: none;
+	color: #fff;
+    background: var(--grey-1);
+}
+
+.m-btnSecondaryColor, .m-linkButtonColor {
+	border: 2px solid var(--grey-2);
+	background: #fff;
+    color: var(--grey-1);
+	padding: 5px 12px;
+    transition: .3s;
+}
+
+.m-btnSecondaryColor:hover {
+	background: var(--grey-1);
+    color: #fff;
+}
+
+.m-btnPrimaryWhite {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 14px 17px;
+    transition: .3s;
+}
+
+.m-btnPrimaryWhite:hover {
+    text-decoration: none;
+    background: #fff;
+    color: var(--grey-1);
+}
+
+.m-btnSecondaryWhite, .m-linkButtonWhite {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 5px 12px;
+    transition: .3s;
+}
+
+.m-linkButtonWhite {
+    padding: 14px 17px;
+}
+
+.m-btnSecondaryWhite:hover, .m-linkButtonWhite:hover {
+    text-decoration: none;
+    background: #fff;
+    color: var(--grey-1);
+}
+
+.m-link {
+    color: var(--grey-1);
+    transition: .3s;
+}
+
+.m-link:hover {
+    text-decoration-color: var(--grey-1);
+    color: unset;
+}
+
+.m-linkWhite {
+    color: #fff;
+}
+
+.m-linkWhite:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.m-linkButtonColor:hover {
+    text-decoration: none;
+    background: var(--grey-1);
+    color: #fff;
+}
+
+.form-control {
+    border-width: 0;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    padding: 10px 0;
+    height: 42px;
+    margin: 0 0;
+    line-height: normal;
+    box-shadow: none !important;
+    color: #4d5668;
+    border-radius: 0;
+}
+
+.form-control:not(:placeholder-shown) {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--grey-1);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.form-control:focus, .form-control:active {
+    padding-left: 8px;
+}
+
+textarea.form-control {
+    border-width: 1px;
+}
+
+.open .m-verticalNav-stacked {
+    list-style-type: none;
+    border-left: 1px solid #d5d7dc;
+    overflow: hidden;
+    margin-left: 15px;
+    padding-left: 20px;
+}
+
+.m-verticalNav-stackedLink {
+    color: var(--grey-1);
+}
+
+.m-verticalNav-link {
+    color: var(--grey-1);
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.m-verticalNav-title {
+    color: var(--purple);
+}
+
+.o-highlightCard {
+    background: var(--purple);
+    color: #fff;
+}
+
+.o-highlightCard-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.o-footer {
+    background: var(--grey-1);
+    color: var(--grey-4);
+}
+
+.o-footer-nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+.o-footer-nav li a {
+    color: var(--grey-4);
+    display: block;
+    padding: 12px 17px;
+}
+
+.o-footer-nav li a:hover {
+    text-decoration: none;
+    background: #fff;
+}
+
+.o-header {
+    background: aquamarine;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #012a2a;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.form-inline .form-control {
+    width: 360px;
+}
+
+.dropdown-toggle[aria-expanded="true"]:after {
+    transform: rotate(180deg); 
+}
+
+.dropdown-toggle:after { 
+    transition: 0.2s; 
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.o-banner {
+    padding-top: 165px;
+    padding-bottom: 165px;
+}
+
+.o-banner-breadcrumbDot {
+    background: none;
+    padding: .75rem 5rem;
+}
+
+.o-banner-breadcrumbDot .o-breadcrumbDot-link {
+    color: var(--grey-4);
+}
+
+.o-banner-breadcrumbDot .breadcrumb-item+.breadcrumb-item::before {
+    content: "•";
+    color: var(--grey-4);
+}
+
+.o-banner-breadcrumbDot .active .o-breadcrumbDot-link {
+    color: #fff;
+    font-weight: 700;
+}
+
+.o-banner-breadcrumbDot .o-breadcrumbDot-link {
+    font-weight: 400;
+}
+
+.o-bannerWhite-breadcrumbDot {
+    background: #fff;
+}
+
+.o-bannerWhite-breadcrumbDot .breadcrumb-item+.breadcrumb-item::before {
+    content: "•";
+    color: var(--grey-1);
+}
+
+.o-bannerWhite-breadcrumbDot .o-breadcrumbDot-link {
+    color: var(--grey-1);
+}
+
+.o-bannerWhite-breadcrumbDot .o-breadcrumbDot-link {
+    font-weight: 400;
+}
+
+.o-bannerWhite-breadcrumbDot .active .o-breadcrumbDot-link {
+    font-weight: 700;
+}
+
+.o-bannerWhite-title {
+    color: var(--purple);
+}
+
+.o-eventCell {
+    border: unset;
+}
+
+.o-eventCell-card {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.o-eventCell-cardBody .a-heading3 {
+    color: var(--purple);
+}
+
+.o-eventCell-cardFooter .a-textOpenSans {
+    border: 1px solid rgba(0,0,0,.125); 
+}
+
+.o-containerPink {
+    background: rgba(204, 23, 78, 0.1);
+}
+

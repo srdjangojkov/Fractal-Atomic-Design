@@ -1,0 +1,40 @@
+context:
+  link: '#'
+  heading: Page Title
+  sectionTitle: Section Title
+  title: Event Categories
+  cardImg: '/pictures/img-1.png'
+  linkText: 'Read more'
+
+  # Header
+  dropdowns:
+    - label: Books
+      dropdownItems:
+        - label: Bestsellers
+        - label: New releases
+        - label: Coming soon
+        - label: E-books
+        - label: All categories
+    - label: Events
+      dropdownItems:
+        - label: Book signings
+        - label: Press releases
+        - label: Summer reading
+    - label: Services
+      dropdownItems:
+        - label: Contact
+
+  pages:
+    - title: Page
+    - title: Page
+    - title: Current page
+        
+  # Footer
+  footerTitle: About Us
+  footerText: Rogers Bookstore.com leverages the power of the Ask Roger! brand to offer online customers the Web's premier destination for books, eBooks, magazines, toys & games, music, DVD and Blu-ray, and related products and services.
+  copyrightText: Copyright © 2016 Version 1.0.0.0
+  footerLinks:
+    - label: Legal Notice
+    - label: Privacy Policy
+    - label: Terms and Conditions
+    
